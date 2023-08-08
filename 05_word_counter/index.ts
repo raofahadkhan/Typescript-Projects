@@ -8,8 +8,5 @@ const answers: { sentence: string } = await inquirer.prompt([
 	},
 ]);
 
-const words = answers.sentence
-	.trim()
-	.split(" ")
-	.filter((num) => num != "");
+const words = answers.sentence.split(" ").filter((num) => num != "");
 console.log(`Your sentence word count is ${words.length}`);
