@@ -64,6 +64,8 @@ if (answers.userId && answers.userPin) {
 			console.log("Insufficient Balance");
 		}
 	}
+}else{
+	console.log("Login Yourself First")
 }
 
 // console.log(answers);

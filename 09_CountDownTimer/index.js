@@ -18,7 +18,6 @@ async function startTimer() {
     ]);
     // Calculate the end time by adding the duration to the current time
     const endTime = new Date().getTime() + duration.duration * 60 * 1000;
-    console.log(new Date().getTime() * 60 * 1000);
     // Display the countdown
     while (true) {
         // Calculate the remaining time
